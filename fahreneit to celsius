@@ -1,0 +1,17 @@
+// ConsoleApplication1.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	int fah;
+	int cel;
+	cout << "Please enter your Fahrenheit: ";
+	cin >> fah;
+	cel = (fah - 32.0) * 5 / 9;
+	cout << "The Celsius value corresponding to" << fah << " Fahrenheit is " << cel << " degrees." << endl;
+
+}
