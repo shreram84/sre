@@ -14,7 +14,7 @@ int main()
 	cout << "Enter the number =  ";
 	cin >> x;
 
-	if (x % 2 == 0)
+	if (x % 2 == 0) /**x % 2 gives the remainder **/
 		cout << x << " is even.";
 	else
 		cout << x << " is odd.";
