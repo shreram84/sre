@@ -1,0 +1,25 @@
+// ConsoleApplication1.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+
+using namespace std;
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int quotient, remainder;
+	int divisor, dividend;
+	cout << " ENTER DIVIDEND : ";
+	cin >> dividend;
+	cout << " ENTER DIVISOR : ";
+	cin >> divisor;
+	quotient = dividend / divisor;
+	remainder = dividend % divisor;
+	cout << " QUOTIENT = " << quotient << endl;
+	cout << " REMAINDER = " << remainder << endl;
+	return 0;
+}
+
